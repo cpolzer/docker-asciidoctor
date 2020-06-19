@@ -82,8 +82,3 @@ RUN apk add --no-cache --virtual .pythonmakedepends \
     nwdiag \
     seqdiag \
   && apk del -r --no-cache .pythonmakedepends
-
-WORKDIR /documents
-VOLUME /documents
-
-CMD ["/bin/bash"]
